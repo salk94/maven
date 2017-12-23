@@ -10,10 +10,10 @@
  */
 public class NewClass {
     
-    public static void main (String Args){
+    public static void main (String Args[]){
         
         
-             System.out.println("ciao a tutti bellli e brutti!")
+             System.out.println("ciao a tutti bellli e brutti!");
         
         
         
