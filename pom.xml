@@ -67,7 +67,7 @@
 						</execution>
 					</executions>
 					<configuration>
-						<configLocation>Checkstyle.xml</configLocation>
+						<configLocation>checkstyle.xml</configLocation>
 						<encoding>UTF-8</encoding>
 						<violationSeverity>warning</violationSeverity>
 						<maxAllowedViolations>0</maxAllowedViolations>
