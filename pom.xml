@@ -21,6 +21,12 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
+         <dependency>
+            <groupId>maven</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <version>3.0.1</version>
+            <type>plugin</type>
+        </dependency>
     </dependencies>
 
     <build>
@@ -70,6 +76,37 @@
                     </execution>
                 </executions>
             </plugin>
+              <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>3.0.1</version>
+                <dependencies>
+                        <dependency>
+                                <groupId>com.puppycrawl.tools</groupId>
+                                <artifactId>checkstyle</artifactId>
+                                <version>8.5</version>
+                        </dependency>
+                </dependencies>
+                <executions>
+                        <execution>
+                                <id>checkstyle</id>
+                                <phase>validate</phase>
+                                <goals>
+                                        <goal>check</goal>
+                                </goals>
+                        </execution>
+                </executions>
+                <configuration>
+                        <configLocation>checkstyle.xml</configLocation>
+                        <encoding>UTF-8</encoding>
+                        <violationSeverity>warning</violationSeverity>
+                        <maxAllowedViolations>0</maxAllowedViolations>
+                        <consoleOutput>true</consoleOutput>
+                        <logViolationsToConsole>true</logViolationsToConsole>
+                        <failOnViolation>false</failOnViolation>
+                </configuration>
+            </plugin>
+       
         </plugins>
     </build>
     <reporting>

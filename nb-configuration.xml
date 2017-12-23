@@ -16,5 +16,16 @@ Any value defined here will override the pom.xml file value but is only applicab
         <org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_j2eeVersion>1.7-web</org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_j2eeVersion>
         <org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_deploy_2e_server>gfv3ee6</org-netbeans-modules-maven-j2ee.netbeans_2e_hint_2e_deploy_2e_server>
         <netbeans.checkstyle.format>true</netbeans.checkstyle.format>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.SaveActionModifiedLinesOnly>false</de-markiewb-netbeans-plugins-eclipse-formatter46.SaveActionModifiedLinesOnly>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.preserveBreakPoints>true</de-markiewb-netbeans-plugins-eclipse-formatter46.preserveBreakPoints>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.linefeed/>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.eclipseFormatterActiveProfile>GoogleStyle</de-markiewb-netbeans-plugins-eclipse-formatter46.eclipseFormatterActiveProfile>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.useProjectPref>true</de-markiewb-netbeans-plugins-eclipse-formatter46.useProjectPref>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.eclipseFormatterLocation>C:\Users\dom\Downloads\Formatter.xml</de-markiewb-netbeans-plugins-eclipse-formatter46.eclipseFormatterLocation>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.showNotifications>true</de-markiewb-netbeans-plugins-eclipse-formatter46.showNotifications>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.eclipseFormatterEnabled>true</de-markiewb-netbeans-plugins-eclipse-formatter46.eclipseFormatterEnabled>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.enableFormatAsSaveAction>true</de-markiewb-netbeans-plugins-eclipse-formatter46.enableFormatAsSaveAction>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.sourcelevel/>
+        <de-markiewb-netbeans-plugins-eclipse-formatter46.useProjectSettings>true</de-markiewb-netbeans-plugins-eclipse-formatter46.useProjectSettings>
     </properties>
 </project-shared-configuration>
